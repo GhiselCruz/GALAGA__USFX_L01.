@@ -53,5 +53,6 @@ void AEspectroNodriza::builMovimiento()
 ANodrizaActorBuilder* AEspectroNodriza::GetNodrizaActorBuilder()
 {
 	return nave3;
+
 }
 
