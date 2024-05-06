@@ -59,6 +59,7 @@ void AInfernoNodriza::builMovimiento()
 ANodrizaActorBuilder* AInfernoNodriza::GetNodrizaActorBuilder()
 {
 	return nave;
+
 }
 
 
