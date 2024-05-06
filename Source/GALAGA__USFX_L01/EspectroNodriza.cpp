@@ -43,6 +43,7 @@ void AEspectroNodriza::builApariencia()
 	FVector UbicacionApariencia = FVector(-900.0f, -1200.0f, 150.0f);
 	FRotator RotacionApariencia = FRotator(0.0f, 180.0f, 0.0f);
 	AMyActorApariencia* apariencia = GetWorld()->SpawnActor<AMyActorApariencia>(UbicacionApariencia, RotacionApariencia);
+
 }
 
 void AEspectroNodriza::builMovimiento()
