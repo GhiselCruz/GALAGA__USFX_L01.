@@ -1,0 +1,123 @@
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Development\GALAGA__USFX_L01\Definitions.GALAGA__USFX_L01.h
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/Barrera.cpp
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\Barrera.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\Barrera.generated.h
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/DirectorNaveNodriza.cpp
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\DirectorNaveNodriza.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\InfernoNodriza.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\InterfaceBuilderNodriza.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\NodrizaActorBuilder.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\NodrizaActorBuilder.generated.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\InterfaceBuilderNodriza.generated.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\InfernoNodriza.generated.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\DirectorNaveNodriza.generated.h
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/EspectroNodriza.cpp
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\EspectroNodriza.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\EspectroNodriza.generated.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\MyActorArmas.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\MyActorArmas.generated.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\MyActorProteccion.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\MyActorProteccion.generated.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\MyActorApariencia.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\MyActorApariencia.generated.h
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/GALAGA__USFX_L01.cpp
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\GALAGA__USFX_L01.h
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/GALAGA__USFX_L01GameMode.cpp
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\GALAGA__USFX_L01GameMode.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\GALAGA__USFX_L01GameMode.generated.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\GALAGA__USFX_L01Pawn.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\GALAGA__USFX_L01Pawn.generated.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\NaveEnemiga.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\MyActorComponentMovimiento.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\MyActorComponentMovimiento.generated.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\NaveEnemiga.generated.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\NaveEnemigaCaza.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\NaveEnemigaCaza.generated.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\NaveEnemigaCazaG1.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\NaveEnemigaCazaG1.generated.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\NaveEnemigaCazaG2.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\NaveEnemigaCazaG2.generated.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\NaveEnemigaEspia.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\NaveEnemigaEspia.generated.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\NaveEnemigaEspiaG1.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\NaveEnemigaEspiaG1.generated.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\NaveEnemigaEspiaG2.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\NaveEnemigaEspiaG2.generated.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\NaveEnemigaNodriza.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\NaveEnemigaNodriza.generated.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\NaveEnemigaNodrizaG1.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\NaveEnemigaNodrizaG1.generated.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\NaveEnemigaNodrizaG2.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\NaveEnemigaNodrizaG2.generated.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\NaveEnemigaReabastecimiento.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\NaveEnemigaReabastecimiento.generated.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\NaveEnemigaReabastecimientoG1.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\NaveEnemigaReabastecimientoG1.generated.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\NaveEnemigaReabastecimientoG2.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\NaveEnemigaReabastecimientoG2.generated.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\NaveEnemigaTransporte.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\NaveEnemigaTransporte.generated.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\NaveEnemigaTransporteG1.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\NaveEnemigaTransporteG1.generated.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\NaveEnemigaTransporteG2.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\NaveEnemigaTransporteG2.generated.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\NemesisNodriza.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\NemesisNodriza.generated.h
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/GALAGA__USFX_L01Pawn.cpp
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\GALAGA__USFX_L01Projectile.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\GALAGA__USFX_L01Projectile.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\MySceneComponentBarrera.h
+C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\MySceneComponentBarrera.generated.h
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/GALAGA__USFX_L01Projectile.cpp
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ProjectileMovementComponent.generated.h
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/InfernoNodriza.cpp
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/InterfaceBuilderNodriza.cpp
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/MyActorApariencia.cpp
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/MyActorArmas.cpp
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/MyActorComponentMovimiento.cpp
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/MyActorProteccion.cpp
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/MySceneComponentBarrera.cpp
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/NaveEnemiga.cpp
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/NaveEnemigaCaza.cpp
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/NaveEnemigaCazaG1.cpp
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/NaveEnemigaCazaG2.cpp
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/NaveEnemigaEspia.cpp
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/NaveEnemigaEspiaG1.cpp
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/NaveEnemigaEspiaG2.cpp
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/NaveEnemigaNodriza.cpp
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/NaveEnemigaNodrizaG1.cpp
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/NaveEnemigaNodrizaG2.cpp
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/NaveEnemigaReabastecimiento.cpp
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/NaveEnemigaReabastecimientoG1.cpp
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/NaveEnemigaReabastecimientoG2.cpp
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/NaveEnemigaTransporte.cpp
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/NaveEnemigaTransporteG1.cpp
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/NaveEnemigaTransporteG2.cpp
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/NemesisNodriza.cpp
+C:/Users/HP/Documents/Unreal Projects/GALAGA__USFX_L01-master/GALAGA__USFX_L01-master/Source/GALAGA__USFX_L01/NodrizaActorBuilder.cpp
