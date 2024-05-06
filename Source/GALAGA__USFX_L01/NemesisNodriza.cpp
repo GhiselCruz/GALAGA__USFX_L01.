@@ -62,4 +62,5 @@ void ANemesisNodriza::builMovimiento()
 ANodrizaActorBuilder* ANemesisNodriza::GetNodrizaActorBuilder()
 {
 	return nave2;
+
 }
