@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-GALAGA__USFX_L01-9417.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\GALAGA__USFX_L01Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Development\GALAGA__USFX_L01\Module.GALAGA__USFX_L01.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Development\GALAGA__USFX_L01\Module.GALAGA__USFX_L01.gen.cpp.obj"
+"C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Development\GALAGA__USFX_L01\Default.rc2.res"
+/OUT:"C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Development\GALAGA__USFX_L01\UE4Editor-GALAGA__USFX_L01-9417.lib"

@@ -11,6 +11,7 @@
 			"GALAGA__USFX_L01Projectile.cpp.obj",
 			"InfernoNodriza.cpp.obj",
 			"InterfaceBuilderNodriza.cpp.obj",
+			"InterfaceBuilderNodrizaCompleja.cpp.obj",
 			"MyActorApariencia.cpp.obj",
 			"MyActorArmas.cpp.obj",
 			"MyActorComponentMovimiento.cpp.obj",
@@ -32,6 +33,7 @@
 			"NaveEnemigaTransporte.cpp.obj",
 			"NaveEnemigaTransporteG1.cpp.obj",
 			"NaveEnemigaTransporteG2.cpp.obj",
+			"NaveNodriza.cpp.obj",
 			"NemesisNodriza.cpp.obj",
 			"NodrizaActorBuilder.cpp.obj"
 		],
@@ -45,6 +47,7 @@
 			"GALAGA__USFX_L01Projectile.gen.cpp.obj",
 			"InfernoNodriza.gen.cpp.obj",
 			"InterfaceBuilderNodriza.gen.cpp.obj",
+			"InterfaceBuilderNodrizaCompleja.gen.cpp.obj",
 			"MyActorApariencia.gen.cpp.obj",
 			"MyActorArmas.gen.cpp.obj",
 			"MyActorComponentMovimiento.gen.cpp.obj",
@@ -66,6 +69,7 @@
 			"NaveEnemigaTransporte.gen.cpp.obj",
 			"NaveEnemigaTransporteG1.gen.cpp.obj",
 			"NaveEnemigaTransporteG2.gen.cpp.obj",
+			"NaveNodriza.gen.cpp.obj",
 			"NemesisNodriza.gen.cpp.obj",
 			"NodrizaActorBuilder.gen.cpp.obj"
 		]

@@ -1,11 +1,11 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
-
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "InterfaceBuilderNodriza.h"
 #include "InfernoNodriza.generated.h"
+
 UCLASS()
 class GALAGA__USFX_L01_API AInfernoNodriza : public AActor, public IInterfaceBuilderNodriza
 {
@@ -15,10 +15,7 @@ public:
 	// Sets default values for this actor's properties
 	AInfernoNodriza();
 
-public:
-	//para constrolar si la nave puede disparar o no
-	//bool puedeDisparar; 
-	//float Movimiento;
+	class ANodrizaActorBuilder* Nave1;
 
 	// temporizador para los diparos
 	//FTimerHandle Temporizadordisparo;  
@@ -32,12 +29,12 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 public:
-	virtual void builArmamento();
-	virtual void builProteccion();
-	virtual void builApariencia();
-	virtual void builMovimiento();
-
-	virtual ANodrizaActorBuilder* GetNodrizaActorBuilder();
+	void builNave() override;
+	void builArmamento() override;
+	void builEscudo() override;
+	void builForma() override;
+	
+	class ANodrizaActorBuilder* GetNaveNodriza() override;
 
 private:
 	ANodrizaActorBuilder* nave;

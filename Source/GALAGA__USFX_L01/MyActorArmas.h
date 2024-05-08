@@ -12,6 +12,7 @@ class GALAGA__USFX_L01_API AMyActorArmas : public AActor
 	GENERATED_BODY()
 
 public:
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Projectile, meta = (AllowPrivateAccess = "true"))
 	UStaticMeshComponent* mallaArmas;
 
 	

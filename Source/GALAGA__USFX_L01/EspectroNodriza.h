@@ -10,27 +10,26 @@ UCLASS()
 class GALAGA__USFX_L01_API AEspectroNodriza : public AActor, public IInterfaceBuilderNodriza
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	// Sets default values for this actor's properties
 	AEspectroNodriza();
+
+	class ANodrizaActorBuilder* Nave3;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 public:
-	virtual void builArmamento();
-	virtual void builProteccion();
-	virtual void builApariencia();
-	virtual void builMovimiento();
+	void builNave() override;
+	void builArmamento() override;
+	void builEscudo() override;
+	void builForma() override;
 
-	virtual ANodrizaActorBuilder* GetNodrizaActorBuilder();
-
-private:
-	ANodrizaActorBuilder* nave3;
+	class ANodrizaActorBuilder* GetNaveNodriza() override;
 };

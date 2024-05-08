@@ -15,6 +15,8 @@ public:
 	// Sets default values for this actor's properties
 	ANemesisNodriza();
 
+	class ANodrizaActorBuilder* Nave2;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -24,14 +26,10 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 public:
-	virtual void builArmamento();
-	virtual void builProteccion();
-	virtual void builApariencia();
-	virtual void builMovimiento();
+	void builNave() override;
+	void builArmamento() override;
+	void builEscudo() override;
+	void builForma() override;
 
-	virtual ANodrizaActorBuilder* GetNodrizaActorBuilder();
-
-
-private:
-	ANodrizaActorBuilder* nave2;
+	class ANodrizaActorBuilder* GetNaveNodriza();
 };

@@ -33,6 +33,13 @@ class AGALAGA__USFX_L01GameMode : public AGameModeBase
 public:
 	AGALAGA__USFX_L01GameMode();
 
+	//Patron de diseño builder
+	IInterfaceBuilderNodriza* Builder1;
+	IInterfaceBuilderNodriza* Builder2;
+	IInterfaceBuilderNodriza* Builder3;
+
+	class ADirectorNaveNodriza* Director;
+
 public:
 	ANaveEnemiga* NaveEnemiga01;
 	ANaveEnemigaCaza* NaveEnemigaCaza01;
@@ -62,10 +69,7 @@ public:
 
 public:
 	virtual void Tick(float DeltaTime) override;
-private:
-	ADirectorNaveNodriza* directorI;
-	ADirectorNaveNodriza* directorN;
-	ADirectorNaveNodriza* directorE;
+
 };
 
 

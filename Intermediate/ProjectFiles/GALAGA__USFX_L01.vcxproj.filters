@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GALAGA__USFX_L01.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{4F2A00D4-EF7D-418F-A17F-5B737FCEEF2A}</UniqueIdentifier>
+      <UniqueIdentifier>{490EA412-994C-4D0A-B42E-925F60CB5E16}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GALAGA__USFX_L01.Target.cs">
       <Filter>Source</Filter>
@@ -15,7 +15,7 @@
     <None Include="..\..\.gitignore" />
     <None Include="..\..\Source.zip" />
     <Filter Include="Config">
-      <UniqueIdentifier>{5434F5FA-DC43-49CA-B385-2E75607AC037}</UniqueIdentifier>
+      <UniqueIdentifier>{D3F0F71A-6908-4FFD-939C-6E146C82F539}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -33,7 +33,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GALAGA__USFX_L01">
-      <UniqueIdentifier>{ED15A05F-72F3-4040-A6DA-11C7F83438C6}</UniqueIdentifier>
+      <UniqueIdentifier>{76906718-418C-4E73-9DD7-769400AC35D8}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GALAGA__USFX_L01\Barrera.cpp">
       <Filter>Source\GALAGA__USFX_L01</Filter>
@@ -90,6 +90,12 @@
       <Filter>Source\GALAGA__USFX_L01</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\GALAGA__USFX_L01\InterfaceBuilderNodriza.h">
+      <Filter>Source\GALAGA__USFX_L01</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GALAGA__USFX_L01\InterfaceBuilderNodrizaCompleja.cpp">
+      <Filter>Source\GALAGA__USFX_L01</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GALAGA__USFX_L01\InterfaceBuilderNodrizaCompleja.h">
       <Filter>Source\GALAGA__USFX_L01</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\GALAGA__USFX_L01\MyActorApariencia.cpp">
@@ -216,6 +222,12 @@
       <Filter>Source\GALAGA__USFX_L01</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\GALAGA__USFX_L01\NaveEnemigaTransporteG2.h">
+      <Filter>Source\GALAGA__USFX_L01</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GALAGA__USFX_L01\NaveNodriza.cpp">
+      <Filter>Source\GALAGA__USFX_L01</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GALAGA__USFX_L01\NaveNodriza.h">
       <Filter>Source\GALAGA__USFX_L01</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\GALAGA__USFX_L01\NemesisNodriza.cpp">

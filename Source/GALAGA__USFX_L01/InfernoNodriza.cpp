@@ -13,14 +13,16 @@ AInfernoNodriza::AInfernoNodriza()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	
-	//Movimiento = 500.0f; //Velocidad de movimiento de la nave
+	
 }
 
 // Called when the game starts or when spawned
 void AInfernoNodriza::BeginPlay()
 {
 	Super::BeginPlay();
-	nave = GetWorld()->SpawnActor<ANodrizaActorBuilder>();
+	Nave1 = GetWorld()->SpawnActor<ANodrizaActorBuilder>();
+
+	Nave1->AttachToActor(this, FAttachmentTransformRules::KeepRelativeTransform);
 }
 
 // Called every frame
@@ -30,35 +32,30 @@ void AInfernoNodriza::Tick(float DeltaTime)
 
 }
 
+void AInfernoNodriza::builNave()
+{
+	Nave1->SetNave(2);
+}
+
 void AInfernoNodriza::builArmamento()
 {
-	FVector UbicacionArma = FVector(-350.0f, 10.0f, 150.0f);
-	FRotator RotacionArma = FRotator(0.0f, 0.0f, 0.0f);
-	AMyActorArmas* arma = GetWorld()->SpawnActor<AMyActorArmas>(UbicacionArma, RotacionArma);
+	//Nave1->SetArmas(2);
 }
 
-void AInfernoNodriza::builProteccion()
+void AInfernoNodriza::builEscudo()
 {
-	FVector UbicacionProteccion = FVector(-250.0f, 0.0f, 150.0f);
-	FRotator RotacionProteccion = FRotator(0.0f, 0.0f, 0.0f);
-	AMyActorProteccion* proteccion = GetWorld()->SpawnActor<AMyActorProteccion>(UbicacionProteccion, RotacionProteccion);
-}
-
-void AInfernoNodriza::builApariencia()
-{
-	FVector UbicacionApariencia = FVector(70.0f, 0.0f, 150.0f);
-	FRotator RotacionApariencia = FRotator(0.0f, 180.0f, 0.0f);
-	AMyActorApariencia* apariencia = GetWorld()->SpawnActor<AMyActorApariencia>(UbicacionApariencia, RotacionApariencia);
-}
-
-void AInfernoNodriza::builMovimiento()
-{
+	Nave1->SetEscudo(2);
 	
 }
 
-ANodrizaActorBuilder* AInfernoNodriza::GetNodrizaActorBuilder()
+void AInfernoNodriza::builForma()
 {
-	return nave;
+	Nave1->SetForma(2);
+}
+
+ANodrizaActorBuilder* AInfernoNodriza::GetNaveNodriza()
+{
+	return Nave1;
 
 }
 

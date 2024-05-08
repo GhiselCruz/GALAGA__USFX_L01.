@@ -1,3 +1,0 @@
-C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\DebugGame\GALAGA__USFX_L01\Definitions.GALAGA__USFX_L01.h
-C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Source\GALAGA__USFX_L01\MyActorApariencia.h
-C:\Users\HP\Documents\Unreal Projects\GALAGA__USFX_L01-master\GALAGA__USFX_L01-master\Intermediate\Build\Win64\UE4Editor\Inc\GALAGA__USFX_L01\MyActorApariencia.generated.h

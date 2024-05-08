@@ -22,7 +22,8 @@ private: \
 	friend struct Z_Construct_UClass_ANodrizaActorBuilder_Statics; \
 public: \
 	DECLARE_CLASS(ANodrizaActorBuilder, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/GALAGA__USFX_L01"), NO_API) \
-	DECLARE_SERIALIZER(ANodrizaActorBuilder)
+	DECLARE_SERIALIZER(ANodrizaActorBuilder) \
+	virtual UObject* _getUObject() const override { return const_cast<ANodrizaActorBuilder*>(this); }
 
 
 #define GALAGA__USFX_L01_master_Source_GALAGA__USFX_L01_NodrizaActorBuilder_h_12_INCLASS \
@@ -31,7 +32,8 @@ private: \
 	friend struct Z_Construct_UClass_ANodrizaActorBuilder_Statics; \
 public: \
 	DECLARE_CLASS(ANodrizaActorBuilder, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/GALAGA__USFX_L01"), NO_API) \
-	DECLARE_SERIALIZER(ANodrizaActorBuilder)
+	DECLARE_SERIALIZER(ANodrizaActorBuilder) \
+	virtual UObject* _getUObject() const override { return const_cast<ANodrizaActorBuilder*>(this); }
 
 
 #define GALAGA__USFX_L01_master_Source_GALAGA__USFX_L01_NodrizaActorBuilder_h_12_STANDARD_CONSTRUCTORS \

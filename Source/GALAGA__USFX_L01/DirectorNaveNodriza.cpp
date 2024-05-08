@@ -2,8 +2,6 @@
 
 
 #include "DirectorNaveNodriza.h"
-#include "InterfaceBuilderNodriza.h"
-#include "NodrizaActorBuilder.h"
 
 // Sets default values
 ADirectorNaveNodriza::ADirectorNaveNodriza()
@@ -26,21 +24,50 @@ void ADirectorNaveNodriza::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 }
+//
+//void ADirectorNaveNodriza::OrdenarBuilder(AActor* builder)
+//{
+//	Builder =  Cast<IInterfaceBuilderNodriza>(builder);
+//}
+//
+//void ADirectorNaveNodriza::builNaveNodriza()
+//{
+//	Builder->builNave(1);
+//	Builder->builEscudo(1);
+//	Builder->builArmamento(1);
+//	Builder->builForma(1);
+//}
+//
+//void ADirectorNaveNodriza::builNaveDestructora()
+//{
+//	Builder->builForma(2);
+//	Builder->builEscudo(2);
+//	Builder->builArmamento(2);
+//}
+//
+//void ADirectorNaveNodriza::builNaveProtectora()
+//{
+//	Builder->builForma(3);
+//	Builder->builEscudo(3);
+//}
 
-
-ANodrizaActorBuilder* ADirectorNaveNodriza::SetNodrizaActorBuilder(IInterfaceBuilderNodriza* builder)
+ANodrizaActorBuilder* ADirectorNaveNodriza::GetNave(IInterfaceBuilderNodriza* builder)
 {
-	if (builder)
+	Builder = Cast<IInterfaceBuilderNodriza>(builder);
+	if(Builder)
 	{
-		builder->builArmamento();
-		builder->builProteccion();
-		builder->builApariencia();
-		builder->builMovimiento();
-
-
-		return builder->GetNodrizaActorBuilder();
+		GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Blue, TEXT("Director"));
+		Builder->builNave();
+		Builder->builForma();
+		Builder->builEscudo();
+		Builder->builArmamento();
+		return Builder->GetNaveNodriza();
 	}
-
-	return nullptr;
+	else
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Blue, TEXT("No hay director"));
+		return nullptr;
+	}
 }
+
 

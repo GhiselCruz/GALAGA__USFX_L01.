@@ -2,9 +2,8 @@
 
 
 #include "EspectroNodriza.h"
-#include "MyActorArmas.h"
-#include "MyActorProteccion.h"
-#include "MyActorApariencia.h"
+#include "NodrizaACtorBuilder.h"
+
 
 // Sets default values
 AEspectroNodriza::AEspectroNodriza()
@@ -19,6 +18,8 @@ void AEspectroNodriza::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	Nave3 = GetWorld()->SpawnActor<ANodrizaActorBuilder>();
+	Nave3->AttachToActor(this, FAttachmentTransformRules::KeepRelativeTransform);
 }
 
 // Called every frame
@@ -28,32 +29,28 @@ void AEspectroNodriza::Tick(float DeltaTime)
 
 }
 
+void AEspectroNodriza::builNave()
+{
+	Nave3->SetNave(3);
+}
+
 void AEspectroNodriza::builArmamento()
 {
-
+	Nave3->SetArmas(3);
 }
 
-void AEspectroNodriza::builProteccion()
+void AEspectroNodriza::builEscudo()
 {
-
+	Nave3->SetEscudo(3);
 }
 
-void AEspectroNodriza::builApariencia()
+void AEspectroNodriza::builForma()
 {
-	FVector UbicacionApariencia = FVector(-900.0f, -1200.0f, 150.0f);
-	FRotator RotacionApariencia = FRotator(0.0f, 180.0f, 0.0f);
-	AMyActorApariencia* apariencia = GetWorld()->SpawnActor<AMyActorApariencia>(UbicacionApariencia, RotacionApariencia);
-
+	Nave3->SetForma(3);
 }
 
-void AEspectroNodriza::builMovimiento()
+ANodrizaActorBuilder* AEspectroNodriza::GetNaveNodriza()
 {
-
-}
-
-ANodrizaActorBuilder* AEspectroNodriza::GetNodrizaActorBuilder()
-{
-	return nave3;
-
+	return Nave3;
 }
 

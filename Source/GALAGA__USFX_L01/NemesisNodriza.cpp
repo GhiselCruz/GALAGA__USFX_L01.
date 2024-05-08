@@ -3,10 +3,6 @@
 
 #include "NemesisNodriza.h"
 #include "NodrizaActorBuilder.h"
-#include "MyActorArmas.h"
-#include "MyActorProteccion.h"
-#include "MyActorApariencia.h"
-
 // Sets default values
 ANemesisNodriza::ANemesisNodriza()
 {
@@ -20,7 +16,8 @@ void ANemesisNodriza::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	nave2 = GetWorld()->SpawnActor<ANodrizaActorBuilder>();
+	Nave2 = GetWorld()->SpawnActor<ANodrizaActorBuilder>();
+	Nave2->AttachToActor(this, FAttachmentTransformRules::KeepRelativeTransform);
 }
 
 // Called every frame
@@ -30,37 +27,27 @@ void ANemesisNodriza::Tick(float DeltaTime)
 
 }
 
+void ANemesisNodriza::builNave()
+{
+	Nave2->SetNave(1);
+}
+
 void ANemesisNodriza::builArmamento()
 {
-	//Nemesis no tendra el objeto Armas 
-	 
-
-	//FVector UbicacionArma = FVector(350.0f, 220.0f, 150.0f);
-	//FRotator RotacionArma = FRotator(0.0f, 0.0f, 0.0f);
-	//AMyActorArmas* arma = GetWorld()->SpawnActor<AMyActorArmas>(UbicacionArma, RotacionArma);
+	Nave2->SetArmas(1);
 }
 
-void ANemesisNodriza::builProteccion()
+void ANemesisNodriza::builEscudo()
 {
-	FVector UbicacionProteccion = FVector(1200.0f, 190.0f, 150.0f);
-	FRotator RotacionProteccion = FRotator(0.0f, 0.0f, 0.0f);
-	AMyActorProteccion* proteccion = GetWorld()->SpawnActor<AMyActorProteccion>(UbicacionProteccion, RotacionProteccion);
+	Nave2->SetEscudo(1);
 }
 
-void ANemesisNodriza::builApariencia()
+void ANemesisNodriza::builForma()
 {
-	FVector UbicacionApariencia = FVector(1500.0f, 180.0f, 150.0f);
-	FRotator RotacionApariencia = FRotator(0.0f, 180.0f, 0.0f);
-	AMyActorApariencia* apariencia = GetWorld()->SpawnActor<AMyActorApariencia>(UbicacionApariencia, RotacionApariencia);
+	Nave2->SetForma(1);
 }
 
-void ANemesisNodriza::builMovimiento()
+ANodrizaActorBuilder* ANemesisNodriza::GetNaveNodriza()
 {
-
-}
-
-ANodrizaActorBuilder* ANemesisNodriza::GetNodrizaActorBuilder()
-{
-	return nave2;
-
+	return Nave2;
 }

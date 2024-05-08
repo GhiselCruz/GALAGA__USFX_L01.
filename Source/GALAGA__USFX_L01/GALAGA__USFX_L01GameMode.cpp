@@ -18,7 +18,7 @@
 #include "NaveEnemigaTransporte.h"
 #include "NaveEnemigaTransporteG1.h"
 #include "NaveEnemigaTransporteG2.h"
-#include "InterfaceBuilderNodriza.h"
+#include "DirectorNaveNodriza.h"
 #include "NodrizaActorBuilder.h"
 #include "InfernoNodriza.h"
 #include "NemesisNodriza.h"
@@ -104,19 +104,19 @@ void AGALAGA__USFX_L01GameMode::BeginPlay()
 	//Aplicacion del patron builder
 
 	//InfernoNodriza
-	directorI = GetWorld()->SpawnActor<ADirectorNaveNodriza>();
-	IInterfaceBuilderNodriza* inferno =  GetWorld()->SpawnActor<AInfernoNodriza>();
-	ANodrizaActorBuilder* nodrizaActorI = directorI->SetNodrizaActorBuilder(inferno);
+	Builder1 = GetWorld()->SpawnActor<AInfernoNodriza>();
+	Director = GetWorld()->SpawnActor<ADirectorNaveNodriza>();
+	Director->GetNave(Builder1);
 
 	//Nemesis Nodriza
-	directorN = GetWorld()->SpawnActor<ADirectorNaveNodriza>();
-	IInterfaceBuilderNodriza* nemesis = GetWorld()->SpawnActor<ANemesisNodriza>();
-	ANodrizaActorBuilder* nodrizaActorN = directorN->SetNodrizaActorBuilder(nemesis);
+	Builder2 = GetWorld()->SpawnActor<ANemesisNodriza>();
+	Director = GetWorld()->SpawnActor<ADirectorNaveNodriza>();
+	Director->GetNave(Builder2);
 
 	//Espectro Nodriza
-	directorE = GetWorld()->SpawnActor<ADirectorNaveNodriza>();
-	IInterfaceBuilderNodriza* espectro = GetWorld()->SpawnActor<AEspectroNodriza>();
-	ANodrizaActorBuilder* nodrizaActorE = directorE->SetNodrizaActorBuilder(espectro);
+	Builder3 = GetWorld()->SpawnActor<AEspectroNodriza>();
+	Director = GetWorld()->SpawnActor<ADirectorNaveNodriza>();
+	Director->GetNave(Builder3);
 }
 
 
